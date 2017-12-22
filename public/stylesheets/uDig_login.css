@@ -1,0 +1,84 @@
+body {
+    background: url("../images/bg3.jpg");
+}
+
+
+.card{
+    width:360px;
+    height: 465px;
+    margin: 150px auto;
+    background-color: #fff;
+    padding: 70px 60px;
+}
+
+.card p {
+    font-family: "Arial black", "宋体", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.card a{
+    color: #2f2e2e;
+}
+
+.card i{
+    font-size:80px;
+    line-height: 0.5;
+}
+
+.card:hover [class*=fa]{
+    -webkit-transform:scale(1.3);
+    transform:rotate(360deg);
+    -webkit-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+}
+
+.navbar-default{
+    min-height: 60px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    background-color: #000000;
+}
+.navbar-default
+.navbar-brand {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica,Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing:5px;
+}
+
+.navbar-default
+.navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-default
+.navbar-nav>li>a:hover {
+    color: #f28241;
+}
+.navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+.navbar-toggle .icon-bar {
+    width: 28px;
+    height: 3px;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 5px;
+}
+
+.navbar-collapse {
+    overflow: hidden;
+}
+
+.error-prompt {
+    text-align: center;
+    color: red;
+}
+

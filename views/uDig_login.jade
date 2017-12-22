@@ -1,0 +1,62 @@
+extends uDig_layout
+
+block title
+    title uDig-Login
+
+block css
+    link(rel='stylesheet' href='stylesheets/uDig_login.css')
+    //link(rel='stylesheet' href='stylesheets/main.css')
+
+block content
+    header
+        main(id="main")
+            nav(class="navbar navbar-default navbar-fixed-top")
+                div(class="container")
+                    div(class="navbar-header")
+                        button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false")
+                            span(class="sr-only") Toggle navigation
+                            span(class="icon-bar")
+                            span(class="icon-bar")
+                            span(class="icon-bar")
+                        a(class="navbar-brand" href="/") uDig
+                    div(class="collapse navbar-collapse in" id="navbar-collapse" aria-expanded="true")
+                        ul(class="nav navbar-nav navbar-right")
+                            li
+                                a(href="#" class="scrollto") About us
+                            li
+                                a(href="#" class="scrollto") Contact us
+            container
+                div(class="card texnter")
+                    div
+                        p(class="card-text") u Draw
+                        br
+                        p(class="card-text")  I guess
+                        br
+                        p(class="card-text") "uDig"
+                    a(class="scrollto" href="#login")
+                        i(class="fa fa-angle-down" aria-hidden="true")
+    section(id="login")
+        .container
+            h3(class="error-prompt")=info
+            div(class="row")
+                div(class="col-md-offset-1 col-md-4")
+                    h1 Login
+                    br
+                    form(role='form', action="/login",method="post", style='max-width: 300px;')
+                        .form-group
+                            input.form-control(type='text', name="username", placeholder='Enter Username')
+                        .form-group
+                            input.form-control(type='password', name="password", placeholder='Password')
+                        button.btn.btn-default(type='submit') Login
+                    br
+
+                div(class="col-md-offset-3 col-md-4")
+                    h1 Register
+                    br
+                    form(role='form', action="/register",method="post", style='max-width: 300px;')
+                        .form-group
+                            input.form-control(type='text', name="username", placeholder='Enter Username')
+                        .form-group
+                            input.form-control(type='password', name="password", placeholder='Password')
+                        button.btn.btn-default(class='register-btn', type='submit') Register
+                    br

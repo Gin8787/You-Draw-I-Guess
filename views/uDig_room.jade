@@ -1,0 +1,25 @@
+extends uDig_layout
+
+block title
+    title uDig-Room
+
+block css
+    link(rel='stylesheet' href='stylesheets/uDig_room.css')
+
+block content
+    nav(class="navbar navbar-default navbar-fixed-top")
+        div(class="container")
+            div(class="row")
+                div(class="col-md-2 navbar-header")
+                    a(class="navbar-brand" href="/") uDig
+                div(class="col-md-offset-6 col-md-4 create-room" id="create-room" aria-expanded="true")
+                    a(href='/createRoom')
+                        button.btn.btn-default(class='create-rm-btn' type='submit' id='create-room-btn') Create Room
+    header(class="col-xs-12 text-center infoheaer")
+        h2(class="header-h-style") Rooms display
+            p(class="header-p-style") Choose one free room to join or create your new room!
+    section(class="col-xs-12 rooms-display")
+        div(class="row" id="rooms")
+
+block javascript
+    script(type='text/javascript' src='/javascripts/showrooms.js')

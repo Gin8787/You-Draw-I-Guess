@@ -1,0 +1,162 @@
+body {
+    background: url("../images/bg3.jpg");
+}
+
+.navbar-custom {
+    background-color: #ffffff;
+}
+
+.header-h-style {
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.header-p-style {
+    color: #000000;
+    font-size: 25px;
+    font-family: "Comic Sans MS";
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.create-rm-btn {
+    border-radius: 13px;
+    font-size: 18px;
+    font-family: Verdana, Comic Sans;
+    padding-left: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 500;
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-top: 7px;
+}
+
+.navbar-brand-style {
+    color: white;
+    font-size: 3rem;
+}
+
+.glyphicon-style {
+    font-size: 20px;
+    color: white;
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+.navbar-default {
+    min-height: 60px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    background-color: #ffffff;
+}
+
+.navbar-default
+.navbar-brand {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 5px;
+    padding-left: 120px;
+    padding-right: 800px;
+}
+
+.continfobox {
+    position: relative
+}
+
+.infobox {
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+    min-height: 330px;
+    box-sizing: border-box;
+    color: #707070;
+    height: 100%
+}
+
+.infobox figure {
+    padding: 0;
+    display: inline-block;
+    float: none;
+    width: 100px
+}
+
+.room-img {
+    width: 80px;
+    height: 60px;
+}
+
+.infobox .flip-container .flipper {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative
+}
+
+.infobox .info {
+    position: static;
+    padding: 0
+}
+
+.infobox div.tags {
+    background-color: #ffeee5;
+    border-radius: 6px;
+    font-size: 10px;
+    max-width: 58px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: auto;
+    color: #ff5c03;
+    padding: 5px 8px;
+    min-height: 19px
+}
+
+.infobox .btn-susbcr {
+    margin-top: 27px
+}
+
+.room-prompt {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.room-num {
+    color: #000000
+}
+
+.room-num {
+    font-size: 25px;
+    padding: 20px;
+    border: none;
+    color: #000000;
+}
+
+.btn-susbcr {
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: Verdana, Comic Sans;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn-susbcr:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
